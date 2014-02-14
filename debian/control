@@ -1,0 +1,15 @@
+Source: git-hooks
+Section: utils
+Priority: extra
+Maintainer: KURASHIKI Satoru <lurdan@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), git
+Standards-Version: 3.9.4
+Homepage: https://github.com/bleis-tift/Git-Hooks
+Vcs-Git: git@github.com:lurdan/Git-Hooks.git
+Vcs-Browser: https://github.com/lurdan/Git-Hooks/tree/dpkg
+
+Package: git-hooks
+Architecture: all
+Depends: ${misc:Depends}, git
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

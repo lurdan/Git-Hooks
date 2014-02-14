@@ -1,0 +1,5 @@
+git-hooks (0.0rewrite~git20131105-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #nnnn)
+
+ -- KURASHIKI Satoru <lurdan@gmail.com>  Fri, 14 Feb 2014 10:59:11 +0900

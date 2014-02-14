@@ -1,0 +1,4 @@
+commands/git-hooks /usr/lib/git-core/
+templates/dispatcher /usr/share/git-core/templates/hooks/
+hooks /usr/share/git-hooks/
+templates /usr/share/git-hooks/

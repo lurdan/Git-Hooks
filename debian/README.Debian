@@ -1,0 +1,8 @@
+git-hooks for Debian
+--------------------
+
+To use git-hooks, you should set shell environment variable: 
+
+GIT_HOOKS_HOME="/usr/share/git-hooks"; export GIT_HOOKS_HOME
+
+ -- KURASHIKI Satoru <lurdan@gmail.com>  Thu, 30 May 2013 16:59:11 +0900
