@@ -1,4 +1,8 @@
-commands/git-hooks /usr/lib/git-core/
-templates/dispatcher /usr/share/git-core/templates/hooks/
-hooks /usr/share/git-hooks/
-templates /usr/share/git-hooks/
+commands usr/share/git-hooks/
+configs usr/share/git-hooks/
+hooks usr/share/git-hooks/
+templates usr/share/git-hooks/
+templates/dispatcher usr/share/git-core/templates/hooks/
+debian/install-config usr/share/git-hooks/
+debian/git-hooks.sh etc/profile.d/
+

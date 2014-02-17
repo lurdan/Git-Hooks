@@ -1,0 +1,7 @@
+{
+    'gitcmddir' => '/usr/lib/git-core',
+    'gitconfig' => "/etc/profile.d/git-hooks.sh",
+    'templatedir' => '/usr/share/git-core/templates/hooks',
+    'githookshome' => '/usr/share/git-hooks',
+    'usesymlink' => 'true',
+};

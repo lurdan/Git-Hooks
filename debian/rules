@@ -16,7 +16,9 @@ override_dh_auto_build:
 
 override_dh_auto_install:
 	dh_auto_install
+	#debian/git-hooks/usr/lib/git-core/
+	dh_link usr/share/git-hooks/commands/git-hooks usr/lib/git-core/git-hooks
 	grep -v ci configs/hooks-list | while read HOOK; \
 	do \
-	    ln -sf /usr/share/git-hooks/templates/common $(CURDIR)/debian/git-hooks/usr/share/git-core/templates/hooks/$$HOOK; \
+	    dh_link usr/share/git-hooks/templates/common usr/share/git-core/templates/hooks/$$HOOK; \
 	done
