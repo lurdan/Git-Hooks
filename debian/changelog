@@ -2,7 +2,7 @@ git-hooks (0.0rewrite~git20131105-3) UNRELEASED; urgency=low
 
   * fix installation rules.
 
- -- KURASHIKI Satoru <lurdan@gmail.com>  Fri, 14 Feb 2014 14:46:11 +0900
+ -- KURASHIKI Satoru <lurdan@gmail.com>  Mon, 17 Feb 2014 10:48:23 +0900
 
 git-hooks (0.0rewrite~git20131105-2) UNRELEASED; urgency=low
 
