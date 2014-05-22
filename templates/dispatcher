@@ -17,6 +17,13 @@ if [ `basename "$0"` = 'pre-receive' -a -x "${hookdir}/ci" ]; then
     "${hookdir}/ci"
 fi
 
+FILE="`mktemp`"
+cat - > "$FILE"
+for hooks in `ls $hookdir/$1.*`; do
+    [ -x "$hooks" ] && cat "$FILE" | "$i"
+done
+rm "$FILE"
+
 hook="${GIT_HOOKS_HOME}/hooks/$1"
 shift
 
