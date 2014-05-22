@@ -1,3 +1,10 @@
+git-hooks (0.0rewrite~git20131105-4lurdan1) UNRELEASED; urgency=low
+
+  * fix template links.
+  * make dispatcher to treat dot separated hook groups.
+
+ -- KURASHIKI Satoru <lurdan@gmail.com>  Thu, 22 May 2014 14:45:11 +0900
+
 git-hooks (0.0rewrite~git20131105-3) UNRELEASED; urgency=low
 
   * fix installation rules.
